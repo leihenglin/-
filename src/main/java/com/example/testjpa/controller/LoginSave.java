@@ -70,4 +70,13 @@ class LoginSave{
     {
         System.out.println("hello"+value);
     }
+
+    //@ResponseBody
+    @GetMapping("/blog/{test}")
+    public String blogTest(@PathVariable Long id, Model model)
+    {
+        //这里的id是一个变量
+        //model.addAttribute("blog",blogService.getAndConvert(id));
+        return "userInfo";
+    }
 }
