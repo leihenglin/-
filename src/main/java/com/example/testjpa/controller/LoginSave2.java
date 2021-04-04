@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-class LoginSave{
+class LoginSave2 {
 
     @Autowired
     UserService userService;
